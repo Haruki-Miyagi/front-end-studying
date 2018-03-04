@@ -71,11 +71,64 @@ nav ul li:hover {
 }
 
 /* body============================================== */
+div section {
+	margin: 50px auto;
+	width: 900px;
+}
 
+div section h1 {
+  font-size: 14px;
+  border-left: 3px solid #B19956;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  line-height: 1;
+  text-align: left;
+  font-weight: 900;
+}
 
+form {
+  width: 900px;
+  background-color: #fff;
+  padding: 30px;
+  margin: 30px auto 60px;
+}
 
+legend {
+  font-size: 22px;
+  font-weight: 900;
+  margin: 0 0 15px 0;
+  color: #B19956;
+}
 
+label {
+  display: block;
+  text-align: left;
+  font-size: 16px;
+	font-weight: 900;
+	margin: 0 0 5px 0;
+}
 
+#personal, #corporation, #varify {
+  float: left;
+  width: 20px;
+  margin: 0 0 5px 0;
+  height: 15px;
+}
+
+form input, form textarea, select {
+  padding: 10px;
+  width: 880px;
+  font-size: 13px;
+  border: 1px solid #EBEBE7;
+  margin: 2px 0 20px;
+}
+
+fieldset {
+	margin: 0 0 30px 0;
+	border: 0;
+	border-bottom: 1px solid #ebebe7;
+	padding: 0 0 30px 0;
+}
 
 /* footer=============================================== */
 

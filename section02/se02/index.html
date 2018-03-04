@@ -22,10 +22,60 @@
     </nav>
   </header>
 
-  <div></div>
+  <div>
+    <section>
+      <h1>CONTACT</h1>
+      <form>
+        <fieldset>
+          <legend>基本情報</legend>
+          <label for="name">お名前 : </label>
+          <input text='text' name='name' id="name">
+
+          <label for="mail">メールアドレス：</label>
+          <input text='text' name='mail' id="mail">
+
+          <label>区分</label>
+          <input id="personal" type="radio" name="区分" value="個人の方">
+          <label for="personal">個人の方</label>
+
+          <input id="corporation" type="radio" name="区分" value="企業の方">
+          <label for="corporation">企業の方</label>
+
+        </fieldset>
+
+        <fieldset>
+          <label for="category">お問い合わせの種類</label>
+          <select id="category" name="お問い合わせの種類">
+            <optgroup label="業務について">
+              <option>デザイン業務について</option>
+              <option>講師業について</option>
+              <option selected="selected">DTP制作について</option>
+              <option>プロダクトデザインについて</option>
+            </optgroup>
+
+            <optgroup label="制作について">
+                <option>納期について</option>
+                <option>価格について</option>
+                <option>支払い方法について</option>
+                <option>その他</option>
+            </optgroup>
+          </select>
+          <label for="para">本文 : </label>
+          <textarea id="para" name="本文" placeholder="お問い合わせ内容など、自由にお書き下さい。">
+          </textarea>
+
+          <label>確認</label>
+          <input type="checkbox" id="varify" value="規約に同意します" name="varify">
+          <label for="varify">規約に同意します</label>
+        </fieldset>
+        <input type="submit" value="送信する">
+        <input type="reset" value="初期化する">
+      </form>
+    </section>
+  </div>
 
   <footer>
-    &copy Yumi Tamura
+    &copy; Yumi Tamura
   </footer>
 </body>
 </html>
