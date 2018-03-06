@@ -1,0 +1,9 @@
+* {
+  margin: 0; padding: 0;
+}
+
+body {
+	font-family: "Noto Sans","Hiragino Kaku Gothic Pro","Yu Gothic","Meiryo",sans-serif;
+	font-size: 14px;
+	color: #555;
+}
