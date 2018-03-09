@@ -71,10 +71,50 @@ nav ul li:hover {
 }
 
 /* ========================================================= */
+div section {
+  width: 900px;
+  margin: 50px auto;
+}
 
+div section h1 {
+  font-size: 14px;
+  border-left: 3px solid #B19956;
+  line-height: 1;
+  padding: 0 0 0 10px;
+	margin: 0 0 20px 0;
+	text-align: left;
+	font-weight: 900;
+}
 
+div section img {
+  width: 400px;
+	display: block;
+	margin: 0 20px 0 0;
+	float: left;
+}
 
+div section header {
+  float: right;
+  width: 430px;
+  padding: 20px;
+  display: block;
+}
 
+div section header h2 {
+  width: 400px;
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+div section header p {
+  width: 400px;
+  font-size: 12px;
+  text-align: left;
+  padding: 0;
+  line-height: 18px;
+}
 
 
 
@@ -100,4 +140,5 @@ footer {
   color: #fff;
   padding: 30px 0;
   font-size: 12px;
+  clear: both;
 }
