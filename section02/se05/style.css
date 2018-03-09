@@ -35,7 +35,7 @@ h1 a:hover {
 }
 
 h2 {
-  padding: 10px 0 0 0;
+  padding: 10px 0 20px 0;
   font-size: 16px;
   color: #555;
   font-weight: 100;
@@ -76,7 +76,7 @@ div section {
   margin: 50px auto;
 }
 
-div section h1 {
+div section h1, table caption {
   font-size: 14px;
   border-left: 3px solid #B19956;
   line-height: 1;
@@ -102,7 +102,7 @@ div section header {
 
 div section header h2 {
   width: 400px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   padding: 0;
   font-size: 16px;
   font-weight: bold;
@@ -116,17 +116,69 @@ div section header p {
   line-height: 18px;
 }
 
+/* table=============================================== */
+#skill {
+  clear: both;
+  width: 900px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
 
+table {
+  text-align: left;
+  width: 900px;
+  margin: 30px auto;
+}
 
+#skill table caption p {
+  text-align: center;
+  background-color: #fff;
+  padding: 30px 0;
+}
 
+thead {
+  background-color: #2D2D2D;
+	color: #fff;
+	margin: 0;
+}
 
+table tr {
+  font-size: 13px;
+}
 
+table thead tr th {
+  background-color: #2D2D2D;
+	color: #fff;
+  font-size: 15px;
+	padding: 5px;
+	margin: 0;
+}
 
+tbody {
+  background-color: #fff;
+  margin: 0;
+}
 
+tbody tr th {
+  padding: 5px;
+}
 
+tbody tr td {
+  color: #666666;
+  padding: 5px;
+}
 
+table tr:nth-child(2n) {
+  background-color: #E2E1DE;
+}
 
-
+tfoot tr td {
+  text-decoration: underline;
+  font-size: 12px;
+	font-style: italic;
+	color: #b8b8b8;
+	padding: 0;
+}
 
 
 
