@@ -45,3 +45,54 @@ header h2 {
   letter-spacing: 10px;
   color: #fff;
 }
+
+
+/* ========================================================= */
+section h3 {
+  font-size: 18px;
+	border-bottom: 1px dashed #000;
+	padding: 0 0 10px 0;
+	margin: 0 0 20px 0;
+}
+
+section dl {
+  width: 900px;
+  height: 100px;
+}
+section dl dt {
+  float: left;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+}
+section dl dd {
+  float: left;
+	width: 800px;
+	height: 30px;
+	line-height: 30px;
+}
+
+section h2 {
+  font-size: 20px;
+	font-weight: 900;
+	padding: 0 0 30px 0;
+	border-bottom: 2px solid #4D5269;
+	margin: 0 0 20px 0;
+}
+
+
+/* ================================================ */
+footer {
+  font-size: 12px;
+	background-color: #4D5269;
+	color: #fff;
+	margin: 80px 0 0 0;
+	height: 100px;
+}
+footer ul li {
+  float: left;
+	margin: 0 20px 0 0;
+	font-size: 12px;
+	height: 100px;
+	line-height: 100px;
+}
