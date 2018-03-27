@@ -61,6 +61,35 @@ nav ul li a:hover {
   padding: 3px 0 0 0;
 }
 
-
+#content {
+  width: 950px;
+  margin: 30px auto;
+}
+#content h2 {
+  margin: 0 0 0 20px;
+}
+#content p {
+  margin: 0 0 15px 20px;
+	font-size: 12px;
+}
+#content ul {
+  width: 930px;
+	margin: 0 auto;
+}
+#content ul li {
+  float: left;
+	width: 280px;
+	margin: 15px;
+}
+ul li:hover {
+  opacity: 0.8;
+}
 
 /* footer====================================== */
+footer {
+  clear: both;
+	width: 900px;
+	margin: 0 auto;
+	padding: 100px 0 0 0;
+	font-size: 12px;
+}
