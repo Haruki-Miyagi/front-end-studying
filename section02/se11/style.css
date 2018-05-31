@@ -31,33 +31,33 @@ header {
 }
 header h1 {
   font-size: 22px;
-	float: left;
-	width: auto;
-	height: 22px;
+  float: left;
+  width: auto;
+  height: 22px;
 }
 
 header nav {
   float: right;
-	margin-top: 10px;
-	width: auto;
-	height: 22px;
+  margin-top: 10px;
+  width: auto;
+  height: 22px;
 }
 header nav ul {
   width: auto;
-	height: 22px;
+  height: 22px;
 }
 header nav ul li {
   float: left;
-	margin-left: 30px;
-	list-style: none;
-	width: auto;
-	height: 22px;
+  margin-left: 30px;
+  list-style: none;
+  width: auto;
+  height: 22px;
 }
 header nav ul li a {
   color: #595758;
-	text-decoration: none;
-	font-weight: 900;
-	font-size: 14px;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 14px;
 }
 
 
